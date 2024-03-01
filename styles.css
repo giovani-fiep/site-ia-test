@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #551A8B;
+    background-color: #BDD0FF;
+}
+
+header {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp2708351.jpg&f=1&nofb=1&ipt=a1b7284d6c9a35539a616de9659cdc421b1361ea07a5cb98156ec7423d8b8387&ipo=images');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.banner {
+    width: 200px;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #551A8B;
+}
+
+main {
+    padding: 20px;
+}
+
+.welcome-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 0;
+    color: white;
+}
+
+.welcome-message {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
